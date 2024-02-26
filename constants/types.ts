@@ -1,84 +1,3 @@
-export const Skills = [
-	{
-		name: 'Html 5',
-		image: '/html.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Css',
-		image: '/css.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Java Script',
-		image: '/js.png',
-		width: 65,
-		height: 65,
-	},
-	{
-		name: 'Tailwind Css',
-		image: '/tailwind.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'React',
-		image: '/react.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Redux',
-		image: '/redux.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'React Query',
-		image: '/reactquery.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Type Script',
-		image: '/ts.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Next js 13',
-		image: '/next.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Framer Motion',
-		image: '/framer.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Stripe Payment',
-		image: '/stripe.webp',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Node js',
-		image: '/node-js.png',
-		width: 80,
-		height: 80,
-	},
-	{
-		name: 'Mongo db',
-		image: '/mongodb.png',
-		width: 40,
-		height: 40,
-	},
-]
-
 export const SocialsIcons = [
 	{
 		name: 'Telegram',
@@ -119,8 +38,8 @@ export const FrontendSkills = [
 	{
 		name: 'Java Script',
 		image: '/icons/frontendSkills/js.png',
-		width: 65,
-		height: 65,
+		width: 70,
+		height: 70,
 	},
 	{
 		name: 'Tailwind CSS',
@@ -184,6 +103,12 @@ export const BackendSkills = [
 		image: '/icons/backendSkills/prisma.png',
 		width: 75,
 		height: 75,
+	},
+	{
+		name: 'Sanity',
+		image: '/icons/backendSkills/sanity.png',
+		width: 70,
+		height: 70,
 	},
 	{
 		name: 'GraphQL',

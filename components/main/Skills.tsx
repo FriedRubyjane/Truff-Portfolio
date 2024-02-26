@@ -1,4 +1,8 @@
-import { BackendSkills, FrontendSkills, FullstackSkills } from '@/constants'
+import {
+	BackendSkills,
+	FrontendSkills,
+	FullstackSkills,
+} from '@/constants/types'
 import SkillDataProvider from '../sub/SkillsDataProvider'
 import SkillsText from '../sub/SkillsText'
 

@@ -1,4 +1,4 @@
-import { SocialsIcons } from '@/constants'
+import { SocialsIcons } from '@/constants/types'
 import Image from 'next/image'
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
 					className='h-auto w-auto flex flex-row items-center'
 				>
 					<Image
-						src='/navLogo.png'
+						src='/icons/navLogo.png'
 						alt='NavbarLogo'
 						width={40}
 						height={40}
