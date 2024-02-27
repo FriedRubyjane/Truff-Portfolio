@@ -1,3 +1,4 @@
+import Footer from '@/components/main/Footer'
 import Navbar from '@/components/main/Navbar'
 import StarsCanvas from '@/components/main/StarBackground'
 import type { Metadata } from 'next'
@@ -24,6 +25,7 @@ export default function RootLayout({
 				<StarsCanvas />
 				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	)

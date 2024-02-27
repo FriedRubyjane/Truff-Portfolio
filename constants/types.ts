@@ -37,24 +37,6 @@ export const MyProjects = [
 	},
 ]
 
-export const SocialsIcons = [
-	{
-		name: 'Telegram',
-		src: '/icons/socials/telegram.png',
-		link: '',
-	},
-	{
-		name: 'Instagram',
-		src: '/icons/socials/instagram.png',
-		link: '',
-	},
-	{
-		name: 'Discord',
-		src: '/icons/socials/discord.png',
-		link: '',
-	},
-]
-
 export const FrontendSkills = [
 	{
 		name: 'HTML5',
