@@ -1,18 +1,15 @@
-import HeroContent from '../sub/HeroContent'
-
 const Hero = () => {
 	return (
-		<div className='relative flex flex-col h-full w-full'>
+		<section className='relative flex flex-col h-full w-full items-center'>
 			<video
 				autoPlay
 				muted
 				loop
-				className='rotate-180 absolute top-[-340px] left-0 z-[1] w-full h-full object-cover'
+				className='rotate-180 absolute z-[1] top-[-250px] w-[1080px] h-[650px] object-cover'
 			>
 				<source src='/video/blackHole.webm' type='video/webm' />
 			</video>
-			<HeroContent />
-		</div>
+		</section>
 	)
 }
 

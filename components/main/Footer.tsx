@@ -3,19 +3,19 @@ import { RxDiscordLogo, RxInstagramLogo } from 'react-icons/rx'
 
 const Footer = () => {
 	return (
-		<div className='w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-[20]'>
+		<footer className='w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-[20]'>
 			<div className='w-full flex flex-col items-center justify-center m-auto'>
 				<div className='w-full h-full flex flex-row items-center justify-around flex-wrap'>
-					<div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+					<div className='min-w-[100px] h-auto flex flex-col items-center justify-start'>
 						<div className='font-bold text-[16px]'>Social Media</div>
 						<div className='flex flex-row gap-7 my-[15px] '>
 							<a
-								href=''
+								href='#'
 								target='_blank'
 								className='flex flex-row items-center gap-2'
 							>
 								<RxInstagramLogo />
-								<span className='text-[15px] ml-6px'>Instagram</span>
+								<span className='text-[15px]'>Instagram</span>
 							</a>
 							<a
 								href='https://discordapp.com/users/296907285765160961'
@@ -23,7 +23,7 @@ const Footer = () => {
 								className='flex flex-row items-center gap-2'
 							>
 								<RxDiscordLogo />
-								<span className='text-[15px] ml-6px'>Discord</span>
+								<span className='text-[15px]'>Discord</span>
 							</a>
 							<a
 								href='https://t.me/FriedTruffle'
@@ -31,7 +31,7 @@ const Footer = () => {
 								className='flex flex-row items-center gap-2'
 							>
 								<BsTelegram />
-								<span className='text-[15px] ml-6px'>Telegram</span>
+								<span className='text-[15px]'>Telegram</span>
 							</a>
 						</div>
 					</div>
@@ -40,7 +40,7 @@ const Footer = () => {
 					&copy; Alex Truffle 2024
 				</div>
 			</div>
-		</div>
+		</footer>
 	)
 }
 
