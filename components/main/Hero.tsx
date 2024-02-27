@@ -12,9 +12,10 @@ const Hero = () => {
 					autoPlay
 					muted
 					loop
-					src={blackHole[0].src}
 					className='rotate-180 absolute z-[1] top-[-250px] w-[1080px] h-[650px] object-cover'
-				></video>
+				>
+					<source src={blackHole[0].src} type='video/mp4' />
+				</video>
 			)}
 		</section>
 	)

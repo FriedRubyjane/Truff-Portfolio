@@ -58,12 +58,13 @@ const Skills = () => {
 						<video
 							className='w-full h-auto'
 							preload='false'
-							src={blackHole[1].src}
 							playsInline
 							loop
 							muted
 							autoPlay
-						></video>
+						>
+							<source src={blackHole[1].src} type='video/mp4' />
+						</video>
 					)}
 				</div>
 			</div>
