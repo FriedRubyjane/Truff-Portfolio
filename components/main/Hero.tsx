@@ -6,7 +6,7 @@ const Hero = () => {
 	const { blackHole, isLoading } = useBlackHole()
 
 	return (
-		<section className='relative flex flex-col h-full w-full items-center'>
+		<section className='relative flex flex-col h-full w-full items-center top-[-325px]'>
 			{!isLoading && (
 				<video
 					preload='false'
@@ -14,7 +14,7 @@ const Hero = () => {
 					loop
 					muted
 					autoPlay
-					className='rotate-180 absolute z-[1] top-[-250px] w-[1080px] h-[650px] object-cover'
+					className='rotate-180 absolute z-[1] w-[1080px] h-[800px] object-cover'
 				>
 					<source src={blackHole[0].src} type='video/mp4' />
 				</video>
