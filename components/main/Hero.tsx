@@ -9,9 +9,11 @@ const Hero = () => {
 		<section className='relative flex flex-col h-full w-full items-center'>
 			{!isLoading && (
 				<video
-					autoPlay
-					muted
+					preload='false'
+					playsInline
 					loop
+					muted
+					autoPlay
 					className='rotate-180 absolute z-[1] top-[-250px] w-[1080px] h-[650px] object-cover'
 				>
 					<source src={blackHole[0].src} type='video/mp4' />
