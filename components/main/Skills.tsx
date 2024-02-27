@@ -1,12 +1,17 @@
+'use client'
+
 import {
 	BackendSkills,
 	FrontendSkills,
 	FullstackSkills,
 } from '@/constants/types'
+import { useBlackHole } from '../hooks/useBlackHole'
 import SkillDataProvider from '../sub/SkillsDataProvider'
 import SkillsText from '../sub/SkillsText'
 
 const Skills = () => {
+	const { blackHole, isLoading } = useBlackHole()
+
 	return (
 		<section
 			id='skills'
@@ -49,15 +54,17 @@ const Skills = () => {
 			</div>
 			<div className='w-full h-full absolute'>
 				<div className='w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
-					<video
-						src='/video/cards-video.webm'
-						className='w-full h-auto'
-						preload='false'
-						playsInline
-						loop
-						muted
-						autoPlay
-					/>
+					{!isLoading && (
+						<video
+							className='w-full h-auto'
+							preload='false'
+							src={blackHole[1].src}
+							playsInline
+							loop
+							muted
+							autoPlay
+						></video>
+					)}
 				</div>
 			</div>
 		</section>
