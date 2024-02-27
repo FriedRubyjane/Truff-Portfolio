@@ -13,7 +13,7 @@ const Navbar = () => {
 						alt='NavbarLogo'
 						width={40}
 						height={40}
-						className='cursor-pointer hover:animate-spin hidden md:block'
+						className='hover:animate-spin hidden md:block'
 					/>
 					<span className='font-bold text-[20px] ml-[10px] hidden md:block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
 						Alexey Tryufilkin
