@@ -9,10 +9,14 @@ const Footer = () => {
 					<div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
 						<div className='font-bold text-[16px]'>Social Media</div>
 						<div className='flex flex-row gap-7 my-[15px] '>
-							<p className='flex flex-row items-center cursor-pointer gap-2'>
+							<a
+								href=''
+								target='_blank'
+								className='flex flex-row items-center gap-2'
+							>
 								<RxInstagramLogo />
 								<span className='text-[15px] ml-6px'>Instagram</span>
-							</p>
+							</a>
 							<a
 								href='https://discordapp.com/users/296907285765160961'
 								target='_blank'
@@ -21,10 +25,14 @@ const Footer = () => {
 								<RxDiscordLogo />
 								<span className='text-[15px] ml-6px'>Discord</span>
 							</a>
-							<p className='flex flex-row items-center cursor-pointer gap-2'>
+							<a
+								href='https://t.me/FriedTruffle'
+								target='_blank'
+								className='flex flex-row items-center gap-2'
+							>
 								<BsTelegram />
 								<span className='text-[15px] ml-6px'>Telegram</span>
-							</p>
+							</a>
 						</div>
 					</div>
 				</div>
