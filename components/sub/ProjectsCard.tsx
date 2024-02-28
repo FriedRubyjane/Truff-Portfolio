@@ -17,7 +17,7 @@ const ProjectsCard = ({ src, title, description, link }: IProjectsCard) => {
 					alt={title}
 					width={512}
 					height={512}
-					className='w-full'
+					className='w-full object-cover'
 				/>
 			</Link>
 			<div className='relative p-4'>
