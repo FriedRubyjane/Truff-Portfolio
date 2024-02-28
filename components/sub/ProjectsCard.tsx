@@ -10,9 +10,9 @@ interface IProjectsCard {
 
 const ProjectsCard = ({ src, title, description, link }: IProjectsCard) => {
 	return (
-		<div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] inline-block min-w-[256px]'>
+		<div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] inline-block min-w-[256px] min-h-[256px]'>
 			<Link href={link} target='_blank'>
-				<div className='flex flex-col'>
+				<div className='flex flex-col h-full'>
 					<Image
 						src={src}
 						alt={title}
