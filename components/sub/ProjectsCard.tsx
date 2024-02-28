@@ -10,18 +10,16 @@ interface IProjectsCard {
 
 const ProjectsCard = ({ src, title, description, link }: IProjectsCard) => {
 	return (
-		<div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[20] w-full h-full min-w-[256px]'>
-			<div className='w-full h-auto'>
-				<Link href={link} target='_blank'>
-					<Image
-						src={src}
-						alt={title}
-						width={512}
-						height={512}
-						className='w-full object-cover'
-					/>
-				</Link>
-			</div>
+		<div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[20] min-w-[256px] min-h-[256px]'>
+			<Link href={link} target='_blank'>
+				<Image
+					src={src}
+					alt={title}
+					width={512}
+					height={512}
+					className='w-full object-cover'
+				/>
+			</Link>
 			<div className='relative p-4'>
 				<h1 className='text-2xl font-semibold text-white'>{title}</h1>
 				<p className='mt-2 text-gray-300'>{description}</p>
