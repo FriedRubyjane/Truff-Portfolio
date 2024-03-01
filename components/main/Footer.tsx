@@ -7,7 +7,7 @@ const Footer = () => {
 			<div className='w-full flex flex-col items-center justify-center m-auto'>
 				<div className='w-full h-full flex flex-row items-center justify-around flex-wrap'>
 					<div className='min-w-[100px] h-auto flex flex-col items-center justify-start'>
-						<div className='font-bold text-[16px]'>Social Media</div>
+						<div className='font-bold text-[16px]'>Соц. сети</div>
 						<div className='flex flex-row gap-7 my-[15px] '>
 							<a
 								href='#'

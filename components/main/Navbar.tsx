@@ -16,19 +16,19 @@ const Navbar = () => {
 						className='hover:animate-spin hidden md:block'
 					/>
 					<span className='font-bold text-[20px] ml-[10px] hidden md:block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
-						Alexey Tryufilkin
+						Алексей Трюфилькин
 					</span>
 				</a>
 				<div className='w-[450px] h-full flex flex-row items-center'>
 					<div className='flex items-center justify-between w-full h-auto mr-[10px] px-[15px] py-[10px] rounded-full text-gray-200'>
 						<a href='#about-me' className='cursor-pointer'>
-							About Me
+							Обо мне
 						</a>
 						<a href='#skills' className='cursor-pointer'>
-							Skills
+							Навыки
 						</a>
 						<a href='#projects' className='cursor-pointer'>
-							Projects
+							Проекты
 						</a>
 					</div>
 				</div>
