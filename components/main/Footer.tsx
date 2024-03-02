@@ -10,7 +10,7 @@ const Footer = () => {
 						<div className='font-bold text-[16px]'>Соц. сети</div>
 						<div className='flex flex-row gap-7 my-[15px] '>
 							<a
-								href='#'
+								href='https://www.instagram.com/jme_truffle?igsh=bXgxcHA2OWljcHN1&utm_source=qr'
 								target='_blank'
 								className='flex flex-row items-center gap-2'
 							>
